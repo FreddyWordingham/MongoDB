@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mongodb"
+version = "0.1.0"
+description = "MongoDB utilities"
+authors = ["FreddyWordingham <freddy@digilab.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+pydantic = { version = "1.10.7", extras = ["dotenv"] }
+pymongo = "^4.3.3"
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
